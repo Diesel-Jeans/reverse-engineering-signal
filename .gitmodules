@@ -1,3 +1,4 @@
 [submodule "frida-interception-and-unpinning"]
 	path = frida-interception-and-unpinning
-	url = git@github.com:httptoolkit/frida-interception-and-unpinning.git
+    url = git@github.com:httptoolkit/frida-interception-and-unpinning.git
+    ignore = dirty
