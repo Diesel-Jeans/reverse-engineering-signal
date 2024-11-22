@@ -1,0 +1,25 @@
+PUT /v1/archives/backupid HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 344
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "messagesBackupAuthCredentialRequest": "Base64",
+  "mediaBackupAuthCredentialRequest": "Base64"
+}
+
+HTTP/1.1 403 Forbidden
+date: Fri, 15 Nov 2024 12:06:14 GMT
+x-signal-timestamp: 1731672374937
+content-type: application/json
+content-length: 74
+
+{
+  "code": 403,
+  "message": "PERMISSION_DENIED: Backups not allowed on account"
+}

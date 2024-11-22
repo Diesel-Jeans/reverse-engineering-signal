@@ -1,0 +1,76 @@
+POST /v1/registration HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 5714
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "sessionId": "Base64",
+  "accountAttributes": {
+    "signalingKey": null,
+    "registrationId": 123,
+    "voice": true,
+    "video": true,
+    "fetchesMessages": false,
+    "registrationLock": null,
+    "unidentifiedAccessKey": "Base64",
+    "unrestrictedUnidentifiedAccess": false,
+    "discoverableByPhoneNumber": false,
+    "capabilities": {
+      "storage": true,
+      "deleteSync": true,
+      "versionedExpirationTimer": true
+    },
+    "name": null,
+    "pniRegistrationId": 1234,
+    "recoveryPassword": null
+  },
+  "aciIdentityKey": "Base64",
+  "pniIdentityKey": "Base64",
+  "aciSignedPreKey": {
+    "keyId": 1234567,
+    "publicKey": "Base64",
+    "signature": "Base64",
+  },
+  "pniSignedPreKey": {
+    "keyId": 12345678,
+    "publicKey": "Base64",
+    "signature": "Base64",
+  },
+  "aciPqLastResortPreKey": {
+    "keyId": 1234567,
+    "publicKey": "Base64",
+    "signature": "Base64",
+  },
+  "pniPqLastResortPreKey": {
+    "keyId": 1234567,
+    "publicKey": "Base64",
+    "signature": "Base64",
+  },
+  "gcmToken": {
+    "gcmRegistrationId": "dmsXcBk-PsQ:APA91bG2zMwDd-3ZV1K7SYqCmYGeGv7EowCZ_oEz2Op45vc-7ThLOzTf43RtFnHUsM5lR9eEf5GBgh",
+    "webSocketChannel": true
+  },
+  "skipDeviceTransfer": true,
+  "requireAtomic": true
+}
+
+HTTP/1.1 200 OK
+date: Fri, 15 Nov 2024 12:05:17 GMT
+x-signal-timestamp: 1731672317776
+content-type: application/json
+vary: Accept-Encoding
+content-length: 217
+
+{
+  "uuid": "UUID Version 4",
+  "number": "+4510203040",
+  "pni": "UUID Version 4",
+  "usernameHash": null,
+  "usernameLinkHandle": "UUID Version 4",
+  "storageCapable": true
+}

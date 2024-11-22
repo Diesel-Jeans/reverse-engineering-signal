@@ -1,0 +1,19 @@
+GET /v1/certificate/delivery?includeE164=false HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+HTTP/1.1 200 OK
+date: Fri, 15 Nov 2024 12:05:19 GMT
+x-signal-timestamp: 1731672319042
+content-type: application/json
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 327
+
+{
+  "certificate": "Base64",
+}

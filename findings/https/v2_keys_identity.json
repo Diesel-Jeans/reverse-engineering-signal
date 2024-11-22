@@ -1,0 +1,923 @@
+PUT /v2/keys?identity=aci HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 230473
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "preKeys": [
+    {
+      "keyId": 13704780,
+      "publicKey": "Base64",
+    },
+    {
+      "keyId": 13704781,
+      "publicKey": "Base64",
+    },
+    {
+      "keyId": 13704782,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704783,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704784,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704785,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704786,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704787,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704788,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704789,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704790,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704791,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704792,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704793,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704794,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704795,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704796,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704797,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704798,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704799,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704800,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704801,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704802,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704803,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704804,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704805,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704806,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704807,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704808,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704809,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704810,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704811,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704812,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704813,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704814,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704815,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704816,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704817,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704818,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704819,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704820,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704821,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704822,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704823,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704824,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704825,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704826,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704827,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704828,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704829,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704830,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704831,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704832,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704833,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704834,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704835,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704836,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704837,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704838,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704839,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704840,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704841,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704842,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704843,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704844,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704845,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704846,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704847,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704848,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704849,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704850,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704851,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704852,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704853,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704854,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704855,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704856,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704857,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704858,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704859,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704860,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704861,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704862,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704863,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704864,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704865,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704866,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704867,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704868,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704869,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704870,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704871,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704872,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704873,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704874,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704875,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704876,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704877,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704878,
+      "publicKey": "Base64"
+    },
+    {
+      "keyId": 13704879,
+      "publicKey": "Base64"
+    }
+  ],
+  "pqLastResortPreKey": null,
+  "pqPreKeys": [
+    {
+      "keyId": 9947605,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947606,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947607,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947608,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947609,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947610,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947611,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947612,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947613,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947614,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947615,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947616,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947617,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947618,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947619,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947620,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947621,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947622,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947623,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947624,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947625,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947626,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947627,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947628,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947629,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947630,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947631,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947632,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947633,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947634,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947635,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947636,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947637,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947638,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947639,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947640,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947641,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947642,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947643,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947644,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947645,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947646,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947647,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947648,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947649,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947650,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947651,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947652,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947653,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947654,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947655,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947656,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947657,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947658,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947659,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947660,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947661,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947662,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947663,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947664,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947665,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947666,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947667,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947668,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947669,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947670,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947671,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947672,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947673,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947674,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947675,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947676,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947677,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947678,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947679,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947680,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947681,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947682,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947683,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947684,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947685,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947686,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947687,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947688,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947689,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947690,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947691,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947692,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947693,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947694,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947695,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947696,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947697,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947698,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947699,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947700,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947701,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947702,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947703,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+    {
+      "keyId": 9947704,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    }
+  ],
+  "signedPreKey": null
+}
+
+HTTP/1.1 204 No Content
+date: Fri, 15 Nov 2024 12:05:19 GMT
+x-signal-timestamp: 1731672320144
+

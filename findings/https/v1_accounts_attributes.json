@@ -1,0 +1,33 @@
+PUT /v1/accounts/attributes/ HTTP/1.1
+authorization: Basic <credentials> 
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 384
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "signalingKey": null,
+  "registrationId": 123,
+  "voice": true,
+  "video": true,
+  "fetchesMessages": false,
+  "registrationLock": null,
+  "unidentifiedAccessKey": "Base64",
+  "unrestrictedUnidentifiedAccess": false,
+  "discoverableByPhoneNumber": false,
+  "capabilities": {
+    "storage": false,
+    "deleteSync": true,
+    "versionedExpirationTimer": true
+  },
+  "name": null,
+  "pniRegistrationId": 1234,
+  "recoveryPassword": null
+}
+
+HTTP/1.1 204 No Content
+date: Fri, 15 Nov 2024 12:05:18 GMT
+x-signal-timestamp: 1731672318485

@@ -1,0 +1,20 @@
+GET /v2/backup/auth HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+HTTP/1.1 200 OK
+date: Fri, 15 Nov 2024 12:06:12 GMT
+x-signal-timestamp: 1731672372068
+content-type: application/json
+vary: Accept-Encoding
+content-length: 92
+
+{
+  "username": "string",
+  "password": "string"
+}
+

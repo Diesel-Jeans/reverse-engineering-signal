@@ -1,0 +1,23 @@
+GET /v1/accounts/whoami HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+HTTP/1.1 200 OK
+date: Fri, 15 Nov 2024 12:05:19 GMT
+x-signal-timestamp: 1731672319741
+content-type: application/json
+vary: Accept-Encoding
+content-length: 218
+
+{
+  "uuid": "UUID Version 4",
+  "number": "+4526352776",
+  "pni": "UUID Version 4",
+  "usernameHash": null,
+  "usernameLinkHandle": "UUID Version 4",
+  "storageCapable": false
+}

@@ -1,0 +1,28 @@
+PUT /v1/profile/ HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 793
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "about": "Base64", 
+  "aboutEmoji":"Base64", 
+  "avatar": false,
+  "badgeIds": [],
+  "commitment": "Base64",
+  "name": "Base64",
+  "paymentAddress": null,
+  "phoneNumberSharing": "Base64",
+  "sameAvatar": false,
+  "version": "3e39f0cec30bde54d16822930b586396c81b0a56615ee515dd38ec54b91ca187"
+}
+
+HTTP/1.1 200 OK
+date: Fri, 15 Nov 2024 12:05:18 GMT
+x-signal-timestamp: 1731672318959
+content-length: 0
+
