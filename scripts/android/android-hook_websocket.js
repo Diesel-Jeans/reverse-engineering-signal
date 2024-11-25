@@ -3,15 +3,15 @@ function appendToFile(filePath, string) {
         var FileOutputStream = Java.use('java.io.FileOutputStream');
 
         try {
+                let timestamp = new Date().toISOString();
                 var stream = FileOutputStream.$new(filePath, true);
-                var bytes = String.$new(string + '\n').getBytes();
+                var bytes = String.$new(`${timestamp} - ${string}\n`).getBytes();
                 stream.write(bytes);
                 stream.close();
                 console.log("[*] Wrote to", filePath);
         } catch (e) {
                 console.log("Error: ", e);
         }
-
 }
 
 function printLoadedClasses(filter) {
@@ -26,7 +26,7 @@ function printLoadedClasses(filter) {
 }
 
 Java.perform(function() {
-        let logFile = "/storage/emulated/0/signal-websocket.log";
+        let logFile = "/storage/emulated/0/signal-websocket.yml";
 
         console.log("[*] Hooking OkHttpWebSocketConnection...");
         const OkHttpWebSocketConnection = Java.use("org.whispersystems.signalservice.internal.websocket.OkHttpWebSocketConnection");
@@ -36,8 +36,8 @@ Java.perform(function() {
 
                 try {
                         // Log
-                        appendToFile(logFile, '"Called sendRequest [request]": {\n' + request.toString() + '"\n}');
-                        console.log("[*] sendRequest:", request.toString());
+                        appendToFile(logFile, `called sendRequest [request]: '${request}'\n`);
+                        console.log("[*] sendRequest [request:", request);
 
                         // Give control back
                         return this.sendRequest(request);
@@ -53,8 +53,8 @@ Java.perform(function() {
 
                 try {
                         // Log
-                        appendToFile(logFile, '"Called sendResponse [response]": {\n' + response.toString() + '"\n}');
-                        console.log("[*] sendResponse:", response.toString());
+                        appendToFile(logFile, `called sendResponse [response]: '${response}'\n`);
+                        console.log("[*] sendResponse:", response);
 
                         // Give control back
                         return this.sendResponse(response);
@@ -75,10 +75,10 @@ Java.perform(function() {
                         var message = adapter.decode(byteArray);
 
                         // Log 
-                        appendToFile(logFile, '"Called onMessage [webSocketMessage]": {\n' + message + '"\n}');
-                        console.log("[*] webSocketMessage:", message);
+                        appendToFile(logFile, `called onMessage [webSocketMessage]: '${message}'\n`);
+                        console.log("[*] webSocketMessage [webSocketMessage]:", message);
 
-                        appendToFile(logFile, '"Called onMessage [payload]": {\n' + payload + '"\n}');
+                        appendToFile(logFile, `called onMessage [payload]: '${payload}'\n`);
                         console.log("[*] payload:", payload);
 
                         // Give control back
@@ -95,13 +95,10 @@ Java.perform(function() {
         SignalServiceMessageSender.sendContent.implementation = function(recipient, sealedSenderAccess, contentHint, message, sendEvents, urgent, includePniSignature, content) {
                 console.log("[*] sendContent called!");
 
-                printLoadedClasses();
-
                 try {
+                        // Log
+                        appendToFile(logFile, `called sendContent [content]: '${content}'\n`);
                         console.log("[*] content:", content);
-                        console.log("[*] content:", content.toString());
-                        console.log("[*] message:", message);
-                        console.log("[*] message:", message.toString());
 
                         // Give control back
                         return this.sendContent(recipient, sealedSenderAccess, contentHint, message, sendEvents, urgent, includePniSignature, content);
