@@ -1,0 +1,80 @@
+2024-11-25T13:13:17.996Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=REQUEST, request=WebSocketRequestMessage{verb=PUT, path=/api/v1/queue/empty, headers=[X-Signal-Timestamp:1732540398612], id=7228944834892452112}}'
+
+2024-11-25T13:13:18.004Z - called onMessage [payload]: '[size=74 hex=080112460a0350555412132f6170692f76312f71756575652f656d7074792090a2a3c5ede097a9642a20582d5369676e616c2d54696d657374616d703a313733…]'
+
+2024-11-25T13:13:25.308Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=GET, path=/v1/profile/42fb20e1-4bdc-46c6-be20-33ead7401a5a/57b67f6e82b04819204926fce56107b217b1c7d108df511b404e294dec0930e6, headers=[Accept-Language:en;q=1, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=1044026962233568066}'
+
+2024-11-25T13:13:25.487Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=1044026962233568066, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540406106, Content-Length:872], body=[size=872 text={"identityKey":"Ba9qFeg4bdBgOKZoqzmp6lZYy+qiCFw9Bg55s+HYqf0V","u…]}}'
+
+2024-11-25T13:13:25.490Z - called onMessage [payload]: '[size=982 hex=08021ad10708c2d6f2ded99fc8be0e10c8011a024f4b22e8067b226964656e746974794b6579223a224261397146656734626442674f4b5a6f717a6d70366c5a…]'
+
+2024-11-25T13:13:29.332Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1820 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=-3381121241852609452}'
+
+2024-11-25T13:13:29.506Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=-3381121241852609452, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540410110, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:29.521Z - called onMessage [payload]: '[size=127 hex=08021a7b08d4f8e3e6cf84f689d10110c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c6963…]'
+
+2024-11-25T13:13:33.990Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1820 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=-6884081672987981028}'
+
+2024-11-25T13:13:34.109Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=-6884081672987981028, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540414754, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:34.116Z - called onMessage [payload]: '[size=127 hex=08021a7b089c9699e69186b5bba00110c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c6963…]'
+
+2024-11-25T13:13:37.118Z - called sendContent [content]: 'Content{dataMessage=DataMessage{body=Hello Alex!, expireTimerVersion=1, profileKey=[hex=60d9290b022c54567ebd9ccfdaa4cd43cf30e9cf0215faeec433c47a0a062035], timestamp=1732540416738, requiredProtocolVersion=0}}'
+
+2024-11-25T13:13:37.167Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1820 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=-4335157618658626031}'
+
+2024-11-25T13:13:37.311Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=-4335157618658626031, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540417948, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:37.314Z - called onMessage [payload]: '[size=127 hex=08021a7b0891ec98f4d4a39bebc30110c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c6963…]'
+
+2024-11-25T13:13:37.887Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1820 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=1789422807551016725}'
+
+2024-11-25T13:13:38.002Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=1789422807551016725, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540418651, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:38.003Z - called onMessage [payload]: '[size=126 hex=08021a7a0895febde880d2d3ea1810c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c696361…]'
+
+2024-11-25T13:13:39.310Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=REQUEST, request=WebSocketRequestMessage{verb=PUT, path=/api/v1/message, body=[size=688 hex=080628a79bd39bb63242cc04110a2105da1b3cce991e4019019644d69fa03c5eabaa645d9045dbe484d4dd906c1af30a122b1bb1bd94668dcf4f7016c6e08bb5…], headers=[X-Signal-Key: false, X-Signal-Timestamp:1732540419838], id=2460831588600093329}}'
+
+2024-11-25T13:13:39.313Z - called onMessage [payload]: '[size=783 hex=0801128a060a03505554120f2f6170692f76312f6d6573736167651ab005080628a79bd39bb63242cc04110a2105da1b3cce991e4019019644d69fa03c5eabaa…]'
+
+2024-11-25T13:13:39.411Z - called sendResponse [response]: 'WebSocketResponseMessage{id=2460831588600093329, status=200, message=OK}'
+
+2024-11-25T13:13:41.427Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=REQUEST, request=WebSocketRequestMessage{verb=PUT, path=/api/v1/message, body=[size=688 hex=0806288baed39bb63242cc04110a210595eec17f1e53e1c1adc179c3fe81bd2a2bcc4df80a122c6f71dd256f4ae89072122b2c085c623c1e4e7016536e6bfd5d…], headers=[X-Signal-Key: false, X-Signal-Timestamp:1732540422070], id=710244800709342956}}'
+
+2024-11-25T13:13:41.428Z - called onMessage [payload]: '[size=783 hex=0801128a060a03505554120f2f6170692f76312f6d6573736167651ab0050806288baed39bb63242cc04110a210595eec17f1e53e1c1adc179c3fe81bd2a2bcc…]'
+
+2024-11-25T13:13:41.463Z - called sendResponse [response]: 'WebSocketResponseMessage{id=710244800709342956, status=200, message=OK}'
+
+2024-11-25T13:13:46.193Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=REQUEST, request=WebSocketRequestMessage{verb=PUT, path=/api/v1/message, body=[size=688 hex=08062892d3d39bb63242cc04110a21057f436184cd1cc2503458c97981beff99949077cfdafa564ef16698970b36ae4b122bf7575d6dae6618d0257531dd49ff…], headers=[X-Signal-Key: false, X-Signal-Timestamp:1732540426733], id=5667968373954503645}}'
+
+2024-11-25T13:13:46.199Z - called onMessage [payload]: '[size=783 hex=0801128a060a03505554120f2f6170692f76312f6d6573736167651ab00508062892d3d39bb63242cc04110a21057f436184cd1cc2503458c97981beff999490…]'
+
+2024-11-25T13:13:46.232Z - called sendResponse [response]: 'WebSocketResponseMessage{id=5667968373954503645, status=200, message=OK}'
+
+2024-11-25T13:13:47.733Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=1732540427610, status=200, message=OK, headers=[X-Signal-Timestamp:1732540428379, Content-Length:0]}}'
+
+2024-11-25T13:13:47.734Z - called onMessage [payload]: '[size=70 hex=08021a4208dadad39bb63210c8011a024f4b2a20582d5369676e616c2d54696d657374616d703a313733323534303432383337392a10436f6e74656e742d4c65…]'
+
+2024-11-25T13:13:47.739Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=1732540427610, status=200, message=OK, headers=[X-Signal-Timestamp:1732540428380, Content-Length:0]}}'
+
+2024-11-25T13:13:47.748Z - called onMessage [payload]: '[size=70 hex=08021a4208dadad39bb63210c8011a024f4b2a20582d5369676e616c2d54696d657374616d703a313733323534303432383338302a10436f6e74656e742d4c65…]'
+
+2024-11-25T13:13:50.893Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=REQUEST, request=WebSocketRequestMessage{verb=PUT, path=/api/v1/message, body=[size=688 hex=08062883f8d39bb63242cc04110a2105dd74fd577bd7909ee3ac988e14aabe6503402a5f9a5fa4b15bc06cd20f28a718122beb2b54c677d2b47b6b39503aa118…], headers=[X-Signal-Key: false, X-Signal-Timestamp:1732540431508], id=5386432634498488924}}'
+
+2024-11-25T13:13:50.895Z - called onMessage [payload]: '[size=783 hex=0801128a060a03505554120f2f6170692f76312f6d6573736167651ab00508062883f8d39bb63242cc04110a2105dd74fd577bd7909ee3ac988e14aabe650340…]'
+
+2024-11-25T13:13:51.103Z - called sendResponse [response]: 'WebSocketResponseMessage{id=5386432634498488924, status=200, message=OK}'
+
+2024-11-25T13:13:51.688Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1821 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=1380043375098278013}'
+
+2024-11-25T13:13:51.836Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=1380043375098278013, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540432477, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:51.844Z - called onMessage [payload]: '[size=126 hex=08021a7a08fde0f4dab4c4b9931310c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c696361…]'
+
+2024-11-25T13:13:52.418Z - called sendRequest [request]: 'WebSocketRequestMessage{verb=PUT, path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, body=[size=1821 text={"destination":"42fb20e1-4bdc-46c6-be20-33ead7401a5a","messages"…], headers=[content-type:application/json, Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==], id=-2940366727377979438}'
+
+2024-11-25T13:13:52.571Z - called onMessage [webSocketMessage]: 'WebSocketMessage{type=RESPONSE, response=WebSocketResponseMessage{id=-2940366727377979438, status=200, message=OK, headers=[Content-Type:application/json, X-Signal-Timestamp:1732540433218, Content-Length:19], body=[text={"needsSync":false}]}}'
+
+2024-11-25T13:13:52.574Z - called onMessage [payload]: '[size=127 hex=08021a7b08d2ef87caa481ee98d70110c8011a024f4b22137b226e6565647353796e63223a66616c73657d2a1d436f6e74656e742d547970653a6170706c6963…]'
+
