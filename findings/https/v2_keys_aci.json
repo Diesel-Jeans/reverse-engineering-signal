@@ -1,0 +1,75 @@
+GET /v2/keys/<aci>/* HTTP/1.1
+unidentified-access-key: <Base64>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+HTTP/1.1 200 OK
+date: Tue, 17 Dec 2024 12:38:20 GMT
+x-signal-timestamp: 1734439100399
+content-type: application/json
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 5612
+
+{
+  "identityKey": "Base64",
+  "devices": [
+    {
+      "deviceId": 3,
+      "registrationId": 6323,
+      "signedPreKey": {
+        "keyId": 35,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      },
+      "preKey": {
+        "keyId": 20,
+        "publicKey": "Base64"
+      },
+      "pqPreKey": {
+        "keyId": 21,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      }
+    },
+    {
+      "deviceId": 1,
+      "registrationId": 967,
+      "signedPreKey": {
+        "keyId": 1735309,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      },
+      "preKey": {
+        "keyId": 2240240,
+        "publicKey": "Base64"
+      },
+      "pqPreKey": {
+        "keyId": 14926151,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      }
+    },
+    {
+      "deviceId": 2,
+      "registrationId": 2226,
+      "signedPreKey": {
+        "keyId": 72,
+        "publicKey": "Base64",
+        "signature": "base64"
+      },
+      "preKey": {
+        "keyId": 42,
+        "publicKey": "Base64"
+      },
+      "pqPreKey": {
+        "keyId": 43,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      }
+    }
+  ]
+}
