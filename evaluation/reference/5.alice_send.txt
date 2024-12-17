@@ -1,0 +1,51 @@
+WebSocketRequestMessage{
+    verb=PUT, 
+    path=/v1/messages/42fb20e1-4bdc-46c6-be20-33ead7401a5a?story=false, 
+    body={
+        "destination": "<aci>",
+        "messages": [
+            {
+            "content": "<ENCRYPTED CONTENT>",
+            "destinationDeviceId": 1,
+            "destinationRegistrationId": 967,
+            "type": 6
+            },
+        ],
+        "online": true,
+        "timestamp": 1734444536035,
+        "urgent": false
+    }, 
+    headers=[
+        content-type:application/json, 
+        Unidentified-Access-Key:hYWFhYWFhYWFhYWFhYWFhYQ==
+        ], 
+        id=-3381121241852609452
+}
+
+Content{
+    dataMessage=DataMessage{
+        body=Hello Alex!, 
+        expireTimerVersion=1, 
+        profileKey=[
+            hex=60d9290b022c54567ebd9ccfdaa4cd43cf30e9cf0215faeec433c47a0a062035
+        ], 
+        timestamp=1732540416738, 
+        requiredProtocolVersion=0
+        }
+}
+
+------------------------------
+WebSocketMessage{
+    type=RESPONSE, 
+    response=WebSocketResponseMessage{
+        id=-3381121241852609452, 
+        status=200, 
+        message=OK, 
+        headers=[
+            Content-Type:application/json, 
+            X-Signal-Timestamp:1732540410110, 
+            Content-Length:19
+        ], 
+        body={"needsSync":false}
+    }
+}

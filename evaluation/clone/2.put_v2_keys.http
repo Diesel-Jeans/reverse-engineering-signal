@@ -1,0 +1,40 @@
+PUT /v2/keys?identity=aci HTTP/1.1
+authorization: Basic NjA3NTg3ZDktMWJiMC00YTg5LTkwOTgtNGJhYTJmYjIxZDcyLjE6K0VaWlYxQ01xWmdBaWpSY3kyNWNjQQ==
+host: 127.0.0.1
+connection: keep-alive
+content-length: 602255
+content-type: application/json
+
+{
+  "pqLastResortPreKey": {
+    "keyId": 102,
+    "publicKey": "<BYTEARRAY>",
+    "signature": "<BYTEARRAY>"
+  },
+  "pqPreKey": [
+    {
+      "keyId": 2,
+      "publicKey": "<BYTEARRAY>",
+      "signature": "<BYTEARRAY>"
+    },
+  ],
+  "preKey": [
+    {
+      "keyId": 0,
+      "publicKey": "<BYTEARRAY>"
+    },
+  ],
+  "signedPreKey": {
+    "keyId": 2,
+    "publicKey": "<BYTEARRAY>",
+    "signature": "<BYTEARRAY>"
+  }
+}
+
+############
+HTTP/1.1 200 OK
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-credentials: true
+content-length: 0
+date: Tue, 17 Dec 2024 10:23:35 GMT
+

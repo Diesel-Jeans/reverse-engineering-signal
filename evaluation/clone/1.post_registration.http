@@ -1,0 +1,68 @@
+POST /v1/registration HTTP/1.1
+host: 127.0.0.1
+authorization: Basic MTIzNDU2Nzg5LjE6K0VaWlYxQ01xWmdBaWpSY3kyNWNjQQ==
+connection: keep-alive
+content-length: 13215
+content-type: application/json
+
+{
+    "session_id":"",
+    "account_attributes":{
+        "registrationId":2429,
+        "fetchesMessages":true,
+        "capabilities":{
+            "deleteSync":true,
+            "paymentActivation":false,
+            "storage":true,
+            "transfer":false,
+            "versionedExpirationTimer":true
+        },
+        "name":"alice_device",
+        "pniRegistrationId":15698,
+        "unidentifiedAccessKey":"<BYTEARRAY>"
+    },
+    "aci_identity_key":"<BYTEARRAY>",
+    "pni_identity_key":"<BYTEARRAY>",
+    "aci_signed_pre_key":{
+        "keyId":0,
+        "publicKey":"<BYTEARRAY>",
+        "signature":"<BYTEARRAY>"
+    },
+    "pni_signed_pre_key":{
+        "keyId":1,
+        "publicKey":"<BYTEARRAY>",
+        "signature":"<BYTEARRAY>"
+    },
+    "aci_pq_last_resort_pre_key":{
+        "keyId":0,
+        "publicKey":"<BYTEARRAY>",
+        "signature":"<BYTEARRAY>"
+    },
+    "pni_pq_last_resort_pre_key":{
+        "keyId":1,
+        "publicKey":"<BYTEARRAY>",
+        "signature":"<BYTEARRAY>"
+    },
+    "gcm_token":null,
+    "apn_token":null,
+    "skip_device_transfer":true,
+    "require_atomic":true,
+    "recovery_password":""
+}
+
+
+#######
+HTTP/1.1 200 OK
+date: Tue, 17 Dec 2024 10:23:33 GMT
+content-length: 155
+content-type: application/json
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-credentials: true
+
+{
+    "uuid":"607587d9-1bb0-4a89-9098-4baa2fb21d72",
+    "number":"123456789",
+    "pni":"d6acdc91-9949-4476-9726-1408651eab7a",
+    "usernameHash":null,
+    "storageCapable":true
+}

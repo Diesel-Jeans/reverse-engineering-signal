@@ -1,0 +1,96 @@
+WebSocketMessage { 
+	r#type: Some(Request),
+	request: Some(WebSocketRequestMessage { 
+        verb: Some("PUT"), 
+        path: Some("/api/v1/message"), 
+        body: Some(<ENVELOPE BYTES>), 
+        headers: ["X-Signal-Key: false", "X-Signal-Timestamp: 1734428170733"], 
+        id: Some(7756304799942783413)}), 
+	response: None 
+}
+
+Envelope { 
+    r#type: Some(PrekeyBundle), 
+    source_service_id: Some("5a30a88c-ea92-4762-bc50-a9cebcb6bacb"), 
+    source_device: Some(1), 
+    destination_service_id: Some("2cdc1a43-8443-4e55-bf55-ba6f50694434"), 
+    timestamp: Some(1734437443), 
+    content: Some(<CIPHERTEXT BYTES>), 
+    server_guid: Some("72f7b946-a460-4c54-91df-c3bd5de06c1c"), 
+    server_timestamp: Some(1734437443889), 
+    ephemeral: Some(false), 
+    urgent: Some(false), 
+    updated_pni: None, 
+    story: None, 
+    reporting_token: None
+}
+
+CiphertextMessage::PreKeySignalMessage(
+    PreKeySignalMessage { 
+        message_version: 4, 
+        registration_id: 12533, 
+        pre_key_id: Some(PreKeyId(0)), 
+        signed_pre_key_id: SignedPreKeyId(0), 
+        kyber_payload: Some(KyberPayload { 
+            pre_key_id: KyberPreKeyId(0), 
+            ciphertext: <BYTES> 
+        }), 
+        base_key: PublicKey { 
+            key_type=Djb, 
+            serialize=<BYTES>
+        },
+        identity_key: IdentityKey { 
+            public_key: PublicKey { 
+                key_type=Djb, 
+                serialize=<BYTES> 
+            } 
+        }, 
+        message: SignalMessage { 
+            message_version: 4, 
+            sender_ratchet_key: PublicKey { 
+                key_type=Djb, 
+                serialize=<BYTEARRAY> 
+            }, 
+            counter: 0, 
+            previous_counter: 0, 
+            ciphertext: <CONTENT BYTES>, 
+            serialized: <BYTES>
+        }, 
+        serialized: <BYTES> 
+        }
+)
+
+Content { 
+    data_message: Some(DataMessage { 
+        body: Some("Hello Bob!"), 
+        attachments: [], 
+        group_v2: None, 
+        flags: None, 
+        expire_timer: None, 
+        expire_timer_version: None, 
+        profile_key: None,
+        timestamp: None, 
+        quote: None, 
+        contact: [], 
+        preview: [], 
+        sticker: None, 
+        required_protocol_version: None, 
+        is_view_once: None, 
+        reaction: None, 
+        delete: None, 
+        body_ranges: [], 
+        group_call_update: None, 
+        payment: None, 
+        story_context: None, 
+        gift_badge: None 
+        }), 
+    sync_message: None, 
+    calling_message: None, 
+    null_message: None, 
+    receipt_message: None, 
+    typing_message: None, 
+    sender_key_distribution_message: None, 
+    decryption_error_message: None, 
+    pni_signature_message: None, 
+    edit_message: None 
+}

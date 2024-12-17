@@ -1,0 +1,33 @@
+PUT /v2/keys?identity=aci HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+content-type: application/json; charset=utf-8
+content-length: 230473
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+{
+  "preKeys": [
+    {
+      "keyId": 13704780,
+      "publicKey": "Base64",
+    },
+  ],
+  "pqLastResortPreKey": null,
+  "pqPreKeys": [
+    {
+      "keyId": 9947605,
+      "publicKey": "Base64",
+      "signature": "Base64"
+    },
+  ],
+  "signedPreKey": null
+}
+
+######
+
+HTTP/1.1 204 No Content
+date: Fri, 15 Nov 2024 12:05:19 GMT
+x-signal-timestamp: 1731672320144

@@ -1,0 +1,17 @@
+GET /v1/websocket HTTP/1.1
+authorization: Basic NjA3NTg3ZDktMWJiMC00YTg5LTkwOTgtNGJhYTJmYjIxZDcyOitFWlpWMUNNcVpnQWlqUmN5MjVjY0E=
+Upgrade: websocket
+Host: 127.0.0.1:80
+Connection: Upgrade
+Sec-WebSocket-Key: JrhqZpXWcjlf0XqiRQdjSg==
+Sec-WebSocket-Version: 13
+
+##################
+HTTP/1.1 101 Switching Protocols
+date: Tue, 17 Dec 2024 10:23:35 GMT
+upgrade: websocket
+connection: upgrade
+sec-websocket-accept: X6r1NyHVGrdiqm22VpBQfLZdC/U=
+access-control-allow-credentials: true
+vary: origin, access-control-request-method, access-control-request-headers
+

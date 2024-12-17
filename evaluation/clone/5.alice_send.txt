@@ -1,0 +1,73 @@
+WebSocketMessage { 
+	r#type: Some(Request), 
+	request: Some(WebSocketRequestMessage { 
+					verb: Some("PUT"),
+					path: Some("/v1/messages/1dd22dbd-2cbf-4f86-8b6b-4471d05e4217"), 
+					body: Some(
+            {
+              "messages": [
+                {
+                  "type": 3,
+                  "destinationDeviceId": 1,
+                  "destinationRegistrationId": 4256,
+                  "content": <ENCRYPTED CONTENT>
+                }
+              ],
+              "online": false,
+              "urgent": true,
+              "timestamp": 1734428694
+            }
+          ), 
+					headers: [], 
+					id: Some(0)}), 
+	response: None 
+	}
+
+
+
+Content { 
+    data_message: Some(DataMessage { 
+        body: Some("Hello Bob!"), 
+        attachments: [], 
+        group_v2: None, 
+        flags: None, 
+        expire_timer: None, 
+        expire_timer_version: None, 
+        profile_key: None, 
+        timestamp: None, 
+        quote: None, 
+        contact: [], 
+        preview: [], 
+        sticker: None, 
+        required_protocol_version: None, 
+        is_view_once: None, 
+        reaction: None, 
+        delete: None, 
+        body_ranges: [], 
+        group_call_update: None, 
+        payment: None, 
+        story_context: None, 
+        gift_badge: None 
+    }), 
+    sync_message: None,
+    calling_message: None, 
+    null_message: None, 
+    receipt_message: None, 
+    typing_message: None, 
+    sender_key_distribution_message: None, 
+    decryption_error_message: None, 
+    pni_signature_message: None, 
+    edit_message: None 
+}
+-----------------------
+WebSocketMessage { 
+    r#type: Some(Response), 
+    request: None, 
+    response: Some(WebSocketResponseMessage { 
+        id: Some(0), 
+        status: Some(200), 
+        message: Some("OK"), 
+        headers: ["Content-Length: 19"], 
+        body: Some(<JSON BYTES>)}) 
+    }
+{"needsSync":false}

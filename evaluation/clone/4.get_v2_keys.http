@@ -1,0 +1,37 @@
+GET /v2/keys/8f71cf35-8ef0-4784-a1c2-47e1a6761f15/* HTTP/1.1
+host: 127.0.0.1
+authorization: Basic NjA3NTg3ZDktMWJiMC00YTg5LTkwOTgtNGJhYTJmYjIxZDcyLjE6K0VaWlYxQ01xWmdBaWpSY3kyNWNjQQ==
+connection: keep-alive
+content-length: 0
+
+####################
+HTTP/1.1 200 OK
+content-type: application/json
+content-length: 6513
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-credentials: true
+date: Tue, 17 Dec 2024 10:23:38 GMT
+
+{
+  "identityKey": "BfCPyZEh6ZSpk6fJ98FvpoxYPewSx1VfT2csClqkC9kU",
+  "keys": [
+    {
+      "deviceId": 1,
+      "registrationId": 2827,
+      "preKey": {
+        "keyId": 0,
+        "publicKey": "<BYTEARRAY>"
+      },
+      "pqPreKey": {
+        "keyId": 0,
+        "publicKey": "<BYTEARRAY>",
+        "signature": "<BYTEARRAY>"
+      },
+      "signedPreKey": {
+        "keyId": 0,
+        "publicKey": "<BYTEARRAY>",
+        "signature": "<BYTEARRAY>"
+      }
+    }
+  ]
+}
