@@ -1,0 +1,39 @@
+GET /v2/keys/<aci>/2 HTTP/1.1
+authorization: Basic <credentials>
+x-signal-agent: OWA
+user-agent: Signal-Android/7.25.0 Android/26
+host: chat.signal.org
+connection: Keep-Alive
+accept-encoding: gzip
+
+HTTP/1.1 200 OK
+date: Tue, 17 Dec 2024 12:38:21 GMT
+x-signal-timestamp: 1734439101132
+content-type: application/json
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 1982
+
+{
+  "identityKey": "Base64",
+  "devices": [
+    {
+      "deviceId": 2,
+      "registrationId": 2226,
+      "signedPreKey": {
+        "keyId": 72,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      },
+      "preKey": {
+        "keyId": 43,
+        "publicKey": "Base64"
+      },
+      "pqPreKey": {
+        "keyId": 44,
+        "publicKey": "Base64",
+        "signature": "Base64"
+      }
+    }
+  ]
+}
