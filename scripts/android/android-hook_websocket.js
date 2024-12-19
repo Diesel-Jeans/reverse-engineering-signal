@@ -37,7 +37,12 @@ Java.perform(function() {
                 try {
                         // Log
                         appendToFile(logFile, `called sendRequest [request]: '${request}'\n`);
-                        console.log("[*] sendRequest [request:", request);
+                        console.log("[*] sendRequest [request]:", request);
+
+                        if (request.body != null) {
+                                appendToFile(logFile, `called sendRequest [request.body.text]: '${request}'\n`);
+                                console.log("[*] sendRequest [request.body.text]:", request.body.value.data.holder.utf8());
+                        }
 
                         // Give control back
                         return this.sendRequest(request);
