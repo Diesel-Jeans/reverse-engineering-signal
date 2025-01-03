@@ -1,0 +1,34 @@
+WebSocketMessage{
+    type=REQUEST, 
+    request=WebSocketRequestMessage{
+        verb=PUT, 
+        path=/api/v1/message, 
+        body=<ENVELOPE BYTES>, 
+        headers=[
+            X-Signal-Key: false, 
+            X-Signal-Timestamp:1732540419838
+        ], 
+        id=2460831588600093329
+    }
+}
+
+Envelope{
+    type=UNIDENTIFIED_SENDER, 
+    destinationServiceId=474f2e27-4841-4511-8fc1-a0fbaf6992d5, 
+    timestamp=1734623365934, 
+    content=<SEALED SENDER BYTES>, 
+    serverGuid=824fbd06-415d-4e1c-b0a1-41f2496b291a, 
+    serverTimestamp=1734623366068, 
+    urgent=true, 
+    story=false
+}  
+
+Content{
+    dataMessage=DataMessage{
+        body=Hello Andreas!, 
+        expireTimerVersion=2, 
+        profileKey=[hex=283d001eb8ec838e71bc10f76005b43ba86fd6c77ae86d49ec3a2403427af952], 
+        timestamp=1734623365934, 
+        requiredProtocolVersion=6
+        }
+}

@@ -9,7 +9,7 @@ connection: Keep-Alive
 accept-encoding: gzip
 
 {
-  "sessionId": "Base64",
+  "sessionId": "<BASE64>",
   "accountAttributes": {
     "signalingKey": null,
     "registrationId": 123,
@@ -17,7 +17,7 @@ accept-encoding: gzip
     "video": true,
     "fetchesMessages": false,
     "registrationLock": null,
-    "unidentifiedAccessKey": "Base64",
+    "unidentifiedAccessKey": "<BASE64>",
     "unrestrictedUnidentifiedAccess": false,
     "discoverableByPhoneNumber": false,
     "capabilities": {
@@ -29,27 +29,27 @@ accept-encoding: gzip
     "pniRegistrationId": 1234,
     "recoveryPassword": null
   },
-  "aciIdentityKey": "Base64",
-  "pniIdentityKey": "Base64",
+  "aciIdentityKey": "<BASE64>",
+  "pniIdentityKey": "<BASE64>",
   "aciSignedPreKey": {
     "keyId": 1234567,
-    "publicKey": "Base64",
-    "signature": "Base64",
+    "publicKey": "<BASE64>",
+    "signature": "<BASE64>",
   },
   "pniSignedPreKey": {
     "keyId": 12345678,
-    "publicKey": "Base64",
-    "signature": "Base64",
+    "publicKey": "<BASE64>",
+    "signature": "<BASE64>",
   },
   "aciPqLastResortPreKey": {
     "keyId": 1234567,
-    "publicKey": "Base64",
-    "signature": "Base64",
+    "publicKey": "<BASE64>",
+    "signature": "<BASE64>",
   },
   "pniPqLastResortPreKey": {
     "keyId": 1234567,
-    "publicKey": "Base64",
-    "signature": "Base64",
+    "publicKey": "<BASE64>",
+    "signature": "<BASE64>",
   },
   "gcmToken": {
     "gcmRegistrationId": "dmsXcBk-PsQ:APA91bG2zMwDd-3ZV1K7SYqCmYGeGv7EowCZ_oEz2Op45vc-7ThLOzTf43RtFnHUsM5lR9eEf5GBgh",
@@ -68,10 +68,10 @@ vary: Accept-Encoding
 content-length: 217
 
 {
-  "uuid": "<UUID Version 4>",
+  "uuid": "<UUID>",
   "number": "+4510203040",
-  "pni": "<UUID Version 4>",
+  "pni": "<UUID>",
   "usernameHash": null,
-  "usernameLinkHandle": "<UUID Version 4>",
+  "usernameLinkHandle": "<UUID>",
   "storageCapable": true
 }
