@@ -32,3 +32,9 @@ Content{
         requiredProtocolVersion=6
         }
 }
+-------------------------------------------
+WebSocketResponseMessage{
+    id=2460831588600093329, 
+    status=200,
+    message=OK
+}

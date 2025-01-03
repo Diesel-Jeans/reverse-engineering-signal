@@ -94,3 +94,11 @@ Content {
     pni_signature_message: None, 
     edit_message: None 
 }
+---------------------------------------------
+WebSocketResponseMessage { 
+    id: Some(7756304799942783413), 
+    status: Some(200), 
+    message: Some("OK"), 
+    headers: ["Content-Length: 0"], 
+    body: None
+}
